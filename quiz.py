@@ -4,7 +4,7 @@ from langchain.chat_models import ChatOpenAI
 import streamlit as st
 import os
 #required libraries are imported
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""#Removed the api key. Please add the api key
 #i have added the key to the openai_api_key environment variable
 def create_the_prompt_template():
 	template="""
